@@ -1,4 +1,5 @@
 {
 "http":"http",
 "fs":"fs",
+"load":"./loader.js"
 }
