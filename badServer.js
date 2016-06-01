@@ -47,7 +47,7 @@ http.createServer(function (req, res) {
             obj.birth = new Date(obj.birth);
             var difference = new Date() - obj.birth;
             obj.age = Math.floor(difference / 31536000000);
-            delete obj.birth;
+            //delete obj.birth;
             var data = JSON.stringify(obj);
             cache[req.url] = data;
 

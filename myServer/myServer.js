@@ -1,3 +1,10 @@
 //Dependencies
-require('./loader.js')(global);
-console.log(global)
+require('./loader.js').load(global);
+
+person.load(function(err, obj){
+  if(!err) {
+    console.log(JSON.stringify(obj));
+  } else {
+    console.log("Read error");
+  }
+})

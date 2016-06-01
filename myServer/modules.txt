@@ -1,5 +1,7 @@
 {
 "http":"http",
 "fs":"fs",
-"load":"./loader.js"
+"loader":"./loader.js",
+"person":"./person.js",
+"util":"util"
 }
